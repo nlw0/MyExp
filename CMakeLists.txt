@@ -5,3 +5,5 @@ project (MyExp)
 set (CMAKE_CXX_STANDARD 11)
 
 add_library (MyExp SHARED myexp.cpp)
+
+install(TARGETS MyExp DESTINATION lib)
