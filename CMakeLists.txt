@@ -2,6 +2,6 @@ cmake_minimum_required (VERSION 2.8.11)
 
 project (MyExp)
 
-add_library (MyExp SHARED myexp.cpp)
+set (CMAKE_CXX_STANDARD 11)
 
-# set_property(TARGET MyExp PROPERTY POSITION_INDEPENDENT_CODE ON)
+add_library (MyExp SHARED myexp.cpp)
